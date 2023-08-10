@@ -2,19 +2,23 @@
 
 Start Project
 
--- clone git https://github.com/GeorgiZlatev/ReactStore.git
+git clone https://github.com/GeorgiZlatev/ReactStore.git
 
--- cd ReactStore
+cd ReactStore
 
--- yarn add postcss-cli@7.1.0
+npm install --global yarn
 
--- yarn add autoprefixer@9.7.5
+yarn --version
 
--- yarn build:css
+yarn add postcss-cli@7.1.0
 
--- export NODE_OPTIONS=--openssl-legacy-provider
+yarn add autoprefixer@9.7.5
 
--- yarn start
+yarn build:css
+
+export NODE_OPTIONS=--openssl-legacy-provider
+
+yarn start
 
 <div>
   <label>Desktop View</label>
