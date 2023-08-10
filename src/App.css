@@ -1,0 +1,8 @@
+body {
+  font-family: "Font Name", sans-serif; /* Заменете 'Font Name' с името на избрания от вас шрифт */
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
